@@ -1,44 +1,51 @@
 {
-	"expo": {
-		"name": "CyMusic",
-		"slug": "CyMusic",
-		"version": "1.0.9",
-		"orientation": "portrait",
-		"icon": "./assets/1024.png",
-		"userInterfaceStyle": "dark",
-		"scheme": "CyMusic",
-		"splash": {
-			"image": "./assets/splash.png",
-			"resizeMode": "contain",
-			"backgroundColor": "#000"
-		},
-		"assetBundlePatterns": ["**/*"],
-		"ios": {
-			"supportsTablet": true,
-			"bundleIdentifier": "com.music.player.gyc",
-			"usesIcloudStorage": true,
-			"infoPlist": {
-				"UIBackgroundModes": ["audio"]
-			},
-			"splash": {
-				"image": "./assets/splash.png",
-				"resizeMode": "contain",
-				"backgroundColor": "#000"
-			}
-		},
-		"android": {
-			"adaptiveIcon": {
-				"foregroundImage": "./assets/adaptive-icon.png",
-				"backgroundColor": "#000"
-			}
-		},
-		"web": {
-			"favicon": "./assets/favicon.png"
-		},
-		"plugins": ["expo-router"],
-		"experiments": {
-			"typedRoutes": true,
-			"tsconfigPaths": true
-		}
-	}
+  "expo": {
+    "name": "CyMusic",
+    "slug": "CyMusic",
+    "version": "1.0.9",
+    "orientation": "portrait",
+    "icon": "./assets/1024.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "CyMusic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.music.player.gyc",
+      "usesIcloudStorage": true,
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "audio"
+        ]
+      },
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      },
+      "package": "com.riff.music"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
 }
